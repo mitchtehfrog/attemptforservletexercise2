@@ -1,0 +1,34 @@
+            img{
+                float: left;
+                margin-right: 20px;
+            }
+            .title{
+                color: #FF9933;
+                text-shadow: 2px 2px #000;
+                font-style: italic;
+                font-size: 300%;
+            }
+           body {
+                font-family: sans-serif;
+            }
+            .firstheading::first-letter{
+                font-size: 200%;
+                font-weight: bold;
+                font-family: sans-serif; 
+            }
+            a{
+                color: #FF6600;
+            }
+            a:hover{
+                color: #33CC33;
+            }
+            ul li{
+                margin: 15px;
+            }
+            .subtitle{
+                text-indent: 125px;
+            }
+            .footer{
+                font-size: 60%;
+                text-align: center;
+            }
