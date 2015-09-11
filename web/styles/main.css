@@ -10,6 +10,8 @@
             }
            body {
                 font-family: sans-serif;
+                width: 800px;
+                margin: 0 auto;
             }
             .firstheading::first-letter{
                 font-size: 200%;
