@@ -13,11 +13,21 @@
                 width: 800px;
                 margin: 0 auto;              
                 background-color: #ffffff;
+                border-style: solid;
+                border-width: 5px;
+                border-color: black;
                 box-shadow: 10px 10px 5px #000000;             
             }
             
             html{
                 background-image: url("../images/bats.gif");
+            }
+            header{
+                margin-top: -35px;
+                background: linear-gradient(45deg, white, orange, black);
+                border-bottom: black;
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
             }
             .firstheading::first-letter{
                 font-size: 200%;
@@ -37,8 +47,12 @@
                 text-indent: 125px;
             }
             .footer{
+                margin-bottom: -5px;
+                border-top: black;
+                border-top-style: solid;
+                border-top-width: 2px;
                 font-size: 60%;
                 text-align: center;
-                background-color: orange;
+                background: linear-gradient(45deg, black, orange, white);
             }
           
