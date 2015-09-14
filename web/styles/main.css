@@ -3,9 +3,7 @@
                 margin-right: 20px;
             }
             .title{
-                color: #FF9933;
-                text-shadow: 2px 2px #000;
-                font-style: italic;
+                
                 font-size: 300%;
             }
            body{
@@ -23,6 +21,7 @@
                 background-image: url("../images/bats.gif");
             }
             header{
+                clear: both;
                 margin-top: -35px;
                 background: linear-gradient(45deg, white, orange, black);
                 border-bottom: black;
@@ -36,6 +35,11 @@
             }
             a{
                 color: #FF6600;
+     
+            }
+            #cat1{
+                clear:both;
+                display:block;
             }
             a:hover{
                 color: #33CC33;
@@ -46,7 +50,17 @@
             .subtitle{
                 text-indent: 125px;
             }
+            .sidebar{
+                width: 160px;
+                float: left;
+            }
+            .content{
+                float: right;
+                width: 625px;
+            }
+            
             .footer{
+                clear: both;
                 margin-bottom: -5px;
                 border-top: black;
                 border-top-style: solid;
@@ -55,4 +69,5 @@
                 text-align: center;
                 background: linear-gradient(45deg, black, orange, white);
             }
+            
           
