@@ -1,3 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2015, 3:49:50 PM
+    Author     : Mitch
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2015, 11:24:48 AM
+    Author     : mthompson31
+*/
+
             img{
                 float: left;
                 margin-right: 20px;
@@ -22,8 +41,7 @@
                 border-color: black;
                 box-shadow: 10px 10px 5px #000000;             
             }
-            
-            .sidebar ul li a{     
+            .sidebar ul li a, #rightsidebar ul li a{     
                 display: block;
                 font-weight: bold;
                 color: black;
@@ -106,14 +124,16 @@
             .subtitle{
                 text-indent: 125px;
             }
-            .sidebar{
-                width: 160px;
-                float: left;
-            }
             .content{
                 float: right;
-                width: 625px;
+                width: 450px;
+                margin-right: 170px;
             }
+            .sidebar{
+                width: 120px;
+                float: left;
+            }
+            
             
             .footer{
                 clear: both;
@@ -125,5 +145,42 @@
                 text-align: center;
                 background: linear-gradient(45deg, black, orange, white);
             }
+            #rightsidebar img{
+                width:30px;
+                height:30px;
+            }
+            #rightsidebar ul{
+                float: right;
+                list-style: none;
+            }
+            #rightsidebar{
+                display:block;
+                height: 250px;
+                width:150px;
+                float: right;
+                float: inside;
+                background-color: #F5DEB3;
+                display: top;
+                
+            }
+            .content{
+                padding-right: 0px;
+                
+            }
             
-          
+            h1{
+                text-align: center;
+            }
+            table{
+                text-align: center;
+                float:right;
+                margin-right: 50px;
+            }
+         
+            a{
+                color: #000000;
+                text-decoration: none;
+            }
+            .price{
+                background-color:  #F5DEB3;
+            }
