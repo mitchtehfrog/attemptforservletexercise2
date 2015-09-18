@@ -32,7 +32,7 @@ and open the template in the editor.
                 border-color: black;
                 box-shadow: 10px 10px 5px #000000;             
             }
-            .sidebar ul li a{     
+            .sidebar ul li a, #rightsidebar ul li a{     
                 display: block;
                 font-weight: bold;
                 color: black;
@@ -115,14 +115,16 @@ and open the template in the editor.
             .subtitle{
                 text-indent: 125px;
             }
+            .content{
+                float: right;
+                width: 450px;
+                margin-right: 170px;
+            }
             .sidebar{
                 width: 120px;
                 float: left;
             }
-            .content{
-                float: right;
-                width: 625px;
-            }
+            
             
             .footer{
                 clear: both;
@@ -134,3 +136,26 @@ and open the template in the editor.
                 text-align: center;
                 background: linear-gradient(45deg, black, orange, white);
             }
+            #rightsidebar img{
+                width:30px;
+                height:30px;
+            }
+            #rightsidebar ul{
+                float: right;
+                list-style: none;
+            }
+            #rightsidebar{
+                display:block;
+                height: 250px;
+                width:150px;
+                float: right;
+                float: inside;
+                background-color: #F5DEB3;
+                display: top;
+                
+            }
+            .content{
+                padding-right: 0px;
+                
+            }
+            
