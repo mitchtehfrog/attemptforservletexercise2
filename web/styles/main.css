@@ -26,7 +26,8 @@
                 display: block;
                 font-weight: bold;
                 color: black;
-                
+                text-decoration: none;
+                text-align: center;
             }
             #nav {
                 list-style: none;
@@ -52,6 +53,7 @@
                 color: #FFFFFF;
                 background-color: #000000;
                 float: left;
+                width: 140px;
             }
             #nav li a:hover {
                 color: #000000;
@@ -67,6 +69,8 @@
                 border: 2px solid black;
                 background-clip: padding-box;
                 background-color: #FF9933;
+                width: 100px;
+                height: 30px;
             }
             html{
                 background-image: url("../images/bats.gif");
