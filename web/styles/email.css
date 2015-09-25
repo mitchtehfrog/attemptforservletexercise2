@@ -148,6 +148,7 @@ and open the template in the editor.
                 color: black;
                 background-color: orange;
                 border: 2px solid black;
+                margin-left: 4em;
             }
             form{
                 margin-left: 4em;
