@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 10:09:19 AM
+    Author     : mthompson31
+*/
+
+            img{
+                float: left;
+                margin-right: 20px;
+            }
+            .title{
+                
+                font-size: 300%;
+            }
+            
+            
+            .topbar ul li a{
+                display: block;
+                
+            }
+           body{
+                font-family: sans-serif;
+                width: 800px;
+                margin: 0 auto;              
+                background-color: #ffffff;
+                border-style: solid;
+                border-width: 5px;
+                border-color: black;
+                box-shadow: 10px 10px 5px #000000;             
+            }
+            
+            .sidebar ul li a{     
+                display: block;
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+                text-align: center;
+            }
+            #nav {
+                list-style: none;
+                font-weight: bold;
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+            #nav ul {
+                list-style-type: none;
+                margin: 0px;
+                padding: 0;
+            }
+            #nav li {
+                margin: 0px;
+                display: block;
+            }
+
+            #nav li a {
+                padding: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: #FFFFFF;
+                background-color: #000000;
+                float: left;
+                width: 140px;
+            }
+            #nav li a:hover {
+                color: #000000;
+                background-color: #CCCCFF;
+                
+            }
+            .sidebar li{
+                list-style: none;
+                margin: 5px;
+                padding: 0px;
+                float: left;
+                padding: 10px;
+                border: 2px solid black;
+                background-clip: padding-box;
+                background-color: #FF9933;
+                width: 100px;
+                height: 30px;
+            }
+            html{
+                background-image: url("../images/bats.gif");
+            }
+            header{
+                clear: both;
+                margin-top: -35px;
+                background: linear-gradient(45deg, white, orange, black);
+                border-bottom: black;
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+            }
+            .firstheading::first-letter{
+                font-size: 200%;
+                font-weight: bold;
+                font-family: sans-serif;    
+            }
+            a{
+                color: #FF6600;
+     
+            }
+            #cat1{
+                clear:both;
+                display:block;
+            }
+            a:hover{
+                color: #33CC33;
+            }
+            ul li{
+                margin: 15px;
+            }
+            .subtitle{
+                text-indent: 125px;
+            }
+            .sidebar{
+                width: 160px;
+                float: left;
+            }
+            .content{
+                float: right;
+                width: 625px;
+            }
+            
+            .footer{
+                clear: both;
+                margin-bottom: -5px;
+                border-top: black;
+                border-top-style: solid;
+                border-top-width: 2px;
+                font-size: 60%;
+                text-align: center;
+                background: linear-gradient(45deg, black, orange, white);
+            }
+            .button{
+                color: black;
+                background-color: orange;
+                border: 2px solid black;
+            }
+            form{
+                margin-left: 50px;
+            }
+            
+          
