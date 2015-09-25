@@ -24,13 +24,13 @@
             <li><a href="products/product_list.html">Product List</a></li>
             <li><a href="/personal">Personal</a></li>
             <li><a href="/decorating_ideas">Decorating Ideas</a></li>
-            <li><a href="/join_email">Join Email</a></li>
+            <li><a href="email.html">Join Email</a></li>
         </ul>
     </div>
         
 <section class="content">
     <h1>Please enter the following information.</h1>
-    <form>
+    <form action="subscribe.html">
   First name:<br>
   <input type="text" name="firstname" required>
   <br>
@@ -41,7 +41,7 @@
   <input type="email" name="email" required>
   <br>
   Zip Code:<br>
-  <input type="number" name="zipcode" placeholder="Optional but appreciated: 9999">
+  <input type="text" pattern="\d{5}" maxlength="5" name="zipcode" placeholder="Optional but appreciated: 99999">
   <br>
   <input class="button" type="submit" value="Subscribe" >
 </form>
