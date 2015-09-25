@@ -65,6 +65,15 @@ and open the template in the editor.
                 float: left;
                 width: 140px;
             }
+            #nav li a#current {
+                padding: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: orange;
+                background-color: #000000;
+                float: left;
+                width: 140px;
+            }
             #nav li a:hover {
                 color: #000000;
                 background-color: #CCCCFF;
